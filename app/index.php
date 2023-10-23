@@ -1,0 +1,3 @@
+<?php
+
+$greeting = "hello world";
