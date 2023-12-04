@@ -1,5 +1,22 @@
 {
+    "name": "gerardmoreno/prova",
+    "type": "project",
+    "autoload": {
+        "classmap": [
+            "./"
+        ],
+        "files": [
+            "framework/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "gerardmoreno",
+            "email": "gerardmoreno@iesebre.com"
+        }
+    ],
     "require": {
-        "vlucas/phpdotenv": "^5.5"
+        "vlucas/phpdotenv": "^5.5",
+        "ext-pdo": "*"
     }
 }

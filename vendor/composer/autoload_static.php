@@ -11,14 +11,9 @@ class ComposerStaticInit5f76840b5d67229212c708831b65eb06
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         'ec347550b4d1ab171e671b43afcf0214' => __DIR__ . '/../..' . '/framework/helpers.php',
-        '80a1ad0960f278c2b6456fb451301ff4' => __DIR__ . '/../..' . '/framework/App.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'f' => 
-        array (
-            'framework\\' => 10,
-        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -40,10 +35,6 @@ class ComposerStaticInit5f76840b5d67229212c708831b65eb06
     );
 
     public static $prefixDirsPsr4 = array (
-        'framework\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/framework',
-        ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
@@ -72,6 +63,9 @@ class ComposerStaticInit5f76840b5d67229212c708831b65eb06
 
     public static $classMap = array (
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+        'ComposerAutoloaderInit5f76840b5d67229212c708831b65eb06' => __DIR__ . '/..' . '/composer/autoload_real.php',
+        'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
+        'Composer\\Autoload\\ComposerStaticInit5f76840b5d67229212c708831b65eb06' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Dotenv\\Dotenv' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Dotenv.php',
         'Dotenv\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/ExceptionInterface.php',
@@ -130,8 +124,8 @@ class ComposerStaticInit5f76840b5d67229212c708831b65eb06
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
         'framework\\App' => __DIR__ . '/../..' . '/framework/App.php',
-        'framework\\Database\\Connection' => __DIR__ . '/../..' . '/framework/Database/connection.php',
-        'framework\\Database\\Database' => __DIR__ . '/../..' . '/framework/Database/database.php',
+        'framework\\Database\\Connection' => __DIR__ . '/../..' . '/framework/Database/Connection.php',
+        'framework\\Database\\Database' => __DIR__ . '/../..' . '/framework/Database/Database.php',
         'framework\\Route' => __DIR__ . '/../..' . '/framework/Route.php',
     );
 
